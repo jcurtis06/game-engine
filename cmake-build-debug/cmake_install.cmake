@@ -39,6 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/json-build/cmake_install.cmake")
   include("C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-build/cmake_install.cmake")
 
 endif()

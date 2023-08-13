@@ -1,14 +1,20 @@
 cmake_minimum_required(VERSION 3.11) # FetchContent is available in 3.11+
 project(example)
+include(FetchContent)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Dependencies
 set(RAYLIB_VERSION 4.5.0)
+
 find_package(raylib ${RAYLIB_VERSION} QUIET) # QUIET or REQUIRED
+
+FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.2/json.tar.xz)
+set(JSON_BuildTests OFF CACHE INTERNAL "")
+FetchContent_MakeAvailable(json)
+
 if (NOT raylib_FOUND) # If there's none, fetch and build raylib
-    include(FetchContent)
     FetchContent_Declare(
             raylib
             DOWNLOAD_EXTRACT_TIMESTAMP OFF
@@ -26,15 +32,20 @@ endif()
 # Our Project
 
 add_executable(${PROJECT_NAME} main.cpp
-        core/Core.cpp
-        core/Core.h
-        gameobject/GameObject.cpp
-        gameobject/GameObject.h
-        gameobject/components/Component.cpp
-        gameobject/components/Component.h
-        gameobject/components/PlayerController.h)
+        core/core.cpp
+        core/core.h
+        gameobject/gameobject.cpp
+        gameobject/gameobject.h
+        gameobject/components/component.cpp
+        gameobject/components/component.h
+        gameobject/components/playercontroller.h
+        gameobject/components/graphics/spriterenderer.h
+        gameobject/components/graphics/tilemaprenderer.h
+        core/resources/tile.h
+)
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)
+target_link_libraries(${PROJECT_NAME} nlohmann_json::nlohmann_json)
 
 # Web Configurations
 if (${PLATFORM} STREQUAL "Web")

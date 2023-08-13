@@ -1,27 +1,27 @@
 [
 {
   "directory": "C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src/external/glfw/include\" -g -fdiagnostics-color=always -o CMakeFiles\\example.dir\\main.cpp.obj -c \"C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\main.cpp\"",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src/external/glfw/include\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/json-src/single_include\" -g -fdiagnostics-color=always -o CMakeFiles\\example.dir\\main.cpp.obj -c \"C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\main.cpp\"",
   "file": "C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\main.cpp",
   "output": "CMakeFiles\\example.dir\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src/external/glfw/include\" -g -fdiagnostics-color=always -o CMakeFiles\\example.dir\\core\\Core.cpp.obj -c \"C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\core\\Core.cpp\"",
-  "file": "C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\core\\Core.cpp",
-  "output": "CMakeFiles\\example.dir\\core\\Core.cpp.obj"
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src/external/glfw/include\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/json-src/single_include\" -g -fdiagnostics-color=always -o CMakeFiles\\example.dir\\core\\core.cpp.obj -c \"C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\core\\core.cpp\"",
+  "file": "C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\core\\core.cpp",
+  "output": "CMakeFiles\\example.dir\\core\\core.cpp.obj"
 },
 {
   "directory": "C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src/external/glfw/include\" -g -fdiagnostics-color=always -o CMakeFiles\\example.dir\\gameobject\\GameObject.cpp.obj -c \"C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\gameobject\\GameObject.cpp\"",
-  "file": "C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\gameobject\\GameObject.cpp",
-  "output": "CMakeFiles\\example.dir\\gameobject\\GameObject.cpp.obj"
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src/external/glfw/include\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/json-src/single_include\" -g -fdiagnostics-color=always -o CMakeFiles\\example.dir\\gameobject\\gameobject.cpp.obj -c \"C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\gameobject\\gameobject.cpp\"",
+  "file": "C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\gameobject\\gameobject.cpp",
+  "output": "CMakeFiles\\example.dir\\gameobject\\gameobject.cpp.obj"
 },
 {
   "directory": "C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug",
-  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src/external/glfw/include\" -g -fdiagnostics-color=always -o CMakeFiles\\example.dir\\gameobject\\components\\Component.cpp.obj -c \"C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\gameobject\\components\\Component.cpp\"",
-  "file": "C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\gameobject\\components\\Component.cpp",
-  "output": "CMakeFiles\\example.dir\\gameobject\\components\\Component.cpp.obj"
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src/src/external/glfw/include\" -I\"C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/json-src/single_include\" -g -fdiagnostics-color=always -o CMakeFiles\\example.dir\\gameobject\\components\\component.cpp.obj -c \"C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\gameobject\\components\\component.cpp\"",
+  "file": "C:\\Users\\06jcu\\Documents\\game dev\\game_engine\\gameobject\\components\\component.cpp",
+  "output": "CMakeFiles\\example.dir\\gameobject\\components\\component.cpp.obj"
 },
 {
   "directory": "C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug",
