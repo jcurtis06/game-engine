@@ -6,7 +6,7 @@
 
 #include <vector>
 #include <memory>
-#include "../gameobject/gameobject.h"
+#include "gameobject/gameobject.h"
 
 class Core {
 public:

@@ -7,7 +7,7 @@
 #include "../component.h"
 #include "nlohmann/json.hpp"
 #include "raylib.h"
-#include "../../../core/resources/tile.h"
+#include "resources/tile.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -37,13 +37,6 @@ public:
         }
 
         std::cout << "Loaded " << tiles.size() << " tiles" << std::endl;
-
-        for (const auto &tile: tiles) {
-            std::cout << tile.x << ", " << tile.y << ", " << tile.variant << std::endl;
-
-            // print out the texture
-            std::cout << "texture: " << textures["tiles"].width << std::endl;
-        }
     }
 
     void render() override {
@@ -53,10 +46,11 @@ public:
             int h_tiles = texture.width / size;
             int v_tiles = texture.height / size;
 
-            std::cout << "texture.width: " << texture.width << std::endl;
-            std::cout << "texture.height: " << texture.height << std::endl;
+            Rectangle source{
+                (float)(size * (tile.variant % h_tiles)),
+                (float)(size * (tile.variant / v_tiles)),
+                (float)size, (float)size };
 
-            Rectangle source{ (float)(size * (tile.variant % h_tiles)), (float)(size * (tile.variant / v_tiles)), (float)size, (float)size };
             DrawTextureRec(texture, source, Vector2{ (float)tile.x, (float)(tile.y) }, WHITE);
         }
     }

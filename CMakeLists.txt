@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.11) # FetchContent is available in 3.11+
 project(example)
 include(FetchContent)
+include_directories(${CMAKE_SOURCE_DIR}/game_engine)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -32,16 +33,16 @@ endif()
 # Our Project
 
 add_executable(${PROJECT_NAME} main.cpp
-        core/core.cpp
-        core/core.h
-        gameobject/gameobject.cpp
-        gameobject/gameobject.h
-        gameobject/components/component.cpp
-        gameobject/components/component.h
-        gameobject/components/playercontroller.h
-        gameobject/components/graphics/spriterenderer.h
-        gameobject/components/graphics/tilemaprenderer.h
-        core/resources/tile.h
+        game_engine/core.cpp
+        game_engine/core.h
+        game_engine/gameobject/gameobject.cpp
+        game_engine/gameobject/gameobject.h
+        game_engine/gameobject/components/component.cpp
+        game_engine/gameobject/components/component.h
+        game_engine/gameobject/components/playercontroller.h
+        game_engine/gameobject/components/graphics/spriterenderer.h
+        game_engine/gameobject/components/graphics/tilemaprenderer.h
+        game_engine/resources/tile.h
 )
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)

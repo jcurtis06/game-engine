@@ -1,7 +1,7 @@
 #include "raylib.h"
 
 #include "gameobject/gameobject.h"
-#include "core/core.h"
+#include "core.h"
 #include "gameobject/components/graphics/tilemaprenderer.h"
 #include <string>
 
