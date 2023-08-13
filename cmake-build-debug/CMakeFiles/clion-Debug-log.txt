@@ -1,4 +1,16 @@
 "C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\06jcu\Documents\game dev\game_engine" -B "C:\Users\06jcu\Documents\game dev\game_engine\cmake-build-debug"
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 CMake Warning (dev) at C:/Program Files/JetBrains/CLion 2023.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent.cmake:1282 (message):
   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
   not set.  The policy's OLD behavior will be used.  When using a URL
@@ -15,10 +27,32 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Using the single-header code from C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/json-src/single_include/
 -- Populating raylib
--- Configuring done (0.0s)
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-subbuild
-ninja: no work to do.
+[1/9] Creating directories for 'raylib-populate'
+[1/9] Performing download step (download, verify and extract) for 'raylib-populate'
+-- Downloading...
+   dst='C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/raysan5/raylib/archive/refs/tags/4.5.0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'
+     dst='C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug/_deps/raylib-src'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[2/9] No update step for 'raylib-populate'
+[3/9] No patch step for 'raylib-populate'
+[5/9] No configure step for 'raylib-populate'
+[6/9] No build step for 'raylib-populate'
+[7/9] No install step for 'raylib-populate'
+[8/9] No test step for 'raylib-populate'
+[9/9] Completed 'raylib-populate'
 -- Testing if -Werror=pointer-arith can be used -- compiles
 -- Testing if -Werror=implicit-function-declaration can be used -- compiles
 -- Testing if -fno-strict-aliasing can be used -- compiles
@@ -30,6 +64,6 @@ ninja: no work to do.
 -- Compiling with the flags:
 --   PLATFORM=PLATFORM_DESKTOP
 --   GRAPHICS=GRAPHICS_API_OPENGL_33
--- Configuring done (0.4s)
+-- Configuring done (6.7s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/06jcu/Documents/game dev/game_engine/cmake-build-debug
