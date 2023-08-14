@@ -40,9 +40,14 @@ add_executable(${PROJECT_NAME} main.cpp
         game_engine/gameobject/components/component.cpp
         game_engine/gameobject/components/component.h
         game_engine/gameobject/components/playercontroller.h
-        game_engine/gameobject/components/graphics/spriterenderer.h
-        game_engine/gameobject/components/graphics/tilemaprenderer.h
+        game_engine/gameobject/components/graphics/sprite_renderer.h
+        game_engine/gameobject/components/graphics/tile_map_renderer.h
         game_engine/resources/tile.h
+        game_engine/resources/tilemap.h
+        game_engine/gameobject/components/physics/kinematic_body.h
+        game_engine/gameobject/components/physics/tile_map_collider.h
+        game_engine/gameobject/components/graphics/animation_renderer.h
+        game_engine/resources/animation.h
 )
 #set(raylib_VERBOSE 1)
 target_link_libraries(${PROJECT_NAME} raylib)
